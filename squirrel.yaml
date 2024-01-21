@@ -35,8 +35,8 @@ app_options:
 
 style:
   # 选择皮肤，亮色与暗色主题
-  color_scheme: purity_of_form_custom
-  color_scheme_dark: purity_of_form_custom
+  color_scheme: catppuccin-latte
+  color_scheme_dark: catppuccin-latte
 
   # 预设选项。如果皮肤没写，则使用这些属性；如果皮肤写了，使用皮肤的。
   text_orientation: horizontal  # horizontal | vertical
@@ -59,6 +59,30 @@ style:
 
 # 皮肤列表
 preset_color_schemes:
+  catppuccin-latte:
+    name: "Mac 浅色"
+    font_face: "LXGWWenKaiMono-Regular"
+    font_point: 15.0
+    candidate_list_layout: stacked
+    text_orientation: horizontal
+    inline_preedit: false
+    corner_radius: 5.0
+    hilited_corner_radius: 5.0
+    border_height: 4.0
+    border_width: 4.0
+    line_spacing: 10.0
+    color_space: display_p3
+    back_color: 0xF5F1EF
+    candidate_text_color: 0xA89F4A
+    comment_text_color: 0x999999
+    label_color: 0x999999
+    hilited_candidate_back_color: 0xF7F4F3
+    hilited_candidate_text_color: 0xD194E3
+    hilited_comment_text_color: 0xE5A504
+    hilited_candidate_label_color: 0xD194E3
+    text_color: 0xE5A504
+    hilited_text_color: 0xE5A504
+
   # 对 purity_of_form 略微调整颜色，让色彩更柔和点，补全其他选项和注释
   purity_of_form_custom:
     name: "純粹的形式／Purity of Form Custom"
