@@ -62,7 +62,7 @@ preset_color_schemes:
   catppuccin-latte:
     name: "Mac 浅色"
     font_face: "LXGWWenKaiMono-Regular"
-    font_point: 15.0
+    font_point: 18.0
     candidate_list_layout: stacked
     text_orientation: horizontal
     inline_preedit: false
