@@ -19,10 +19,6 @@ func main() {
 		case "t":
 			rime.Temp()
 			return
-		case "p":
-			rime.CheckPolyphone(rime.BasePath)
-			rime.CheckPolyphone(rime.ExtPath)
-			return
 		case "tp":
 			rime.Pinyin(filepath.Join(rime.RimeDir, "cn_dicts/temp.txt"))
 			return
@@ -68,6 +64,7 @@ SORT:
 	rime.Sort(rime.BasePath, 3)
 	rime.Sort(rime.ExtPath, 3)
 	rime.Sort(rime.TencentPath, 4)
+	rime.Sort(filepath.Join(rime.RimeDir, "en_dicts/en.dict.yaml"), 2)
 }
 
 func areYouOK() {
