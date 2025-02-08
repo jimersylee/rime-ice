@@ -28,7 +28,7 @@ var (
 )
 
 // 初始化特殊词汇列表、需要注音列表、错别字列表、拼音列表
-func init() {
+func initCheck() {
 	// 特殊词汇列表，不进行任何检查
 	specialWords.Add("狄尔斯–阿尔德反应")
 	specialWords.Add("特里斯坦–达库尼亚")
@@ -102,7 +102,8 @@ func init() {
 		text, code := parts[0], parts[1]
 		hanPinyin[text] = append(hanPinyin[text], code)
 	}
-	// 给 hanPinyin 补充不再字表的读音，和过滤列表 hanPinyinFilter
+	hanPinyin["栖"] = []string{"qi"} // 只检查 qi 音，在 hanPinyinFilter 过滤「栖栖xi、栖栖xi遑遑」
+	// 给 hanPinyin 补充不在字表的读音，和过滤列表 hanPinyinFilter
 	file4, err := os.Open(汉字拼音映射TXT)
 	if err != nil {
 		log.Fatalln(err)
@@ -128,6 +129,7 @@ func init() {
 			hanPinyinFilter.Add(line)
 		}
 	}
+
 }
 
 // Check 对传入的词库文件进行检查
