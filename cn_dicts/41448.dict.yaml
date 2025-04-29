@@ -17,7 +17,7 @@
 #          这样小字表里存在的字按权重靠前排列，大字表殿后，生僻字自动就排在末尾。
 ---
 name: 41448
-version: "2025-02-02"
+version: "2025-04-23"
 sort: by_weight
 ...
 # 注释掉了一些
@@ -137,6 +137,7 @@ sort: by_weight
 靉	ai
 餲	ai
 馤	ai
+騃	ai
 鱫	ai
 鴱	ai
 𠊎	ai
@@ -185,6 +186,7 @@ sort: by_weight
 𩮖	ai
 𪇈	ai
 𪕭	ai
+𫘤	ai
 㜝	an
 㟁	an
 㱘	an
@@ -429,6 +431,7 @@ sort: by_weight
 鳌	ao
 鷔	ao
 鼇	ao
+鿫	ao
 𡊛	ao
 𡏼	ao
 𡒃	ao
@@ -4105,6 +4108,7 @@ sort: by_weight
 𪌹	chi
 𪏐	chi
 𪏸	chi
+𫛶	chi
 㓼	chong
 㓽	chong
 㧤	chong
@@ -5805,6 +5809,7 @@ sort: by_weight
 黕	dan
 黮	dan
 黵	dan
+鿕	dan
 𠆛	dan
 𠆶	dan
 𠇋	dan
@@ -9188,6 +9193,7 @@ sort: by_weight
 𪆠	fu
 𪊐	fu
 𪍏	fu
+𫚒	fu
 𮔅	fu
 伽	ga
 呷	ga
@@ -9665,6 +9671,7 @@ sort: by_weight
 鴚	ge
 鴿	ge
 鸽	ge
+鿔	ge
 𠛊	ge
 𠯫	ge
 𠲱	ge
@@ -12016,6 +12023,7 @@ sort: by_weight
 㷤	hu
 㸦	hu
 㹱	hu
+㺀	hu
 㺉	hu
 㽇	hu
 㾰	hu
@@ -13123,6 +13131,7 @@ sort: by_weight
 𪔊	hui
 𪖕	hui
 𪛂	hui
+𫚔	hui
 㑮	hun
 㕵	hun
 㥵	hun
@@ -21159,6 +21168,7 @@ sort: by_weight
 𣭇	lv
 𤁵	lv
 𤗬	lv
+𤝽	lv
 𤾺	lv
 𥖼	lv
 𥡢	lv
@@ -23381,7 +23391,6 @@ sort: by_weight
 𣧍	ne
 𧤜	ne
 㐻	nei
-㖏	nei
 㘨	nei
 㨅	nei
 㼏	nei
@@ -23543,6 +23552,7 @@ sort: by_weight
 鲵	ni
 麑	ni
 齯	ni
+鿭	ni
 𠆵	ni
 𠒰	ni
 𠱘	ni
@@ -23744,6 +23754,7 @@ sort: by_weight
 𩭑	niao
 𪅝	niao
 𪈼	niao
+㖏	nie
 㖕	nie
 㖖	nie
 㘝	nie
@@ -28608,6 +28619,7 @@ sort: by_weight
 𨧨	rui
 𨳙	rui
 𪏩	rui
+𮉫	rui
 㝄	run
 㠈	run
 䏕	run
@@ -30917,6 +30929,7 @@ sort: by_weight
 𣩠	si
 𣱻	si
 𤆟	si
+𤝽	si
 𤣵	si
 𤱸	si
 𤺊	si
@@ -30955,6 +30968,7 @@ sort: by_weight
 𪊍	si
 𪕳	si
 𪖉	si
+𫘤	si
 㕬	song
 㞞	song
 㣝	song
@@ -32025,6 +32039,7 @@ sort: by_weight
 𪍵	tan
 㑽	tang
 㒉	tang
+㓥	tang
 㙶	tang
 㜍	tang
 㦂	tang
@@ -32609,6 +32624,7 @@ sort: by_weight
 鷆	tian
 鷏	tian
 黇	tian
+鿬	tian
 𠗘	tian
 𡒧	tian
 𡙒	tian
@@ -34967,6 +34983,7 @@ sort: by_weight
 㳀	xi
 㳧	xi
 㵿	xi
+㶉	xi
 㸍	xi
 㹫	xi
 㺣	xi
@@ -36061,6 +36078,7 @@ sort: by_weight
 𪄏	xian
 𪄷	xian
 𪔩	xian
+𮬣	xian
 㗽	xiang
 㟄	xiang
 㟟	xiang
@@ -37085,6 +37103,7 @@ sort: by_weight
 㱙	xiu
 㳜	xiu
 㾋	xiu
+䗛	xiu
 䜬	xiu
 䰍	xiu
 休	xiu
@@ -38617,6 +38636,7 @@ sort: by_weight
 䬺	yang
 䭐	yang
 䭥	yang
+䱀	yang
 䵮	yang
 仰	yang
 佒	yang
@@ -38768,6 +38788,7 @@ sort: by_weight
 𪓛	yang
 𪕫	yang
 𪚻	yang
+𫚐	yang
 㑸	yao
 㑾	yao
 㓞	yao
@@ -41610,6 +41631,8 @@ sort: by_weight
 𪑌	yu
 𪑝	yu
 𪓊	yu
+𫚪	yu
+𮬛	yu
 㘣	yuan
 㛪	yuan
 㟲	yuan
@@ -43067,6 +43090,7 @@ sort: by_weight
 𪏉	zhan
 𪗦	zhan
 𪘪	zhan
+𰲳	zhan
 㕩	zhang
 㙊	zhang
 㙣	zhang
